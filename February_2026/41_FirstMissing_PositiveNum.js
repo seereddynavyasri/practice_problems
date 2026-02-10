@@ -1,4 +1,4 @@
-var firstMissingPoNum=function(arr){
+var firstMissingPosNum=function(arr){
     let n=arr.length;
     let resSet = new Set();
     for(let a of arr){
@@ -16,4 +16,4 @@ var firstMissingPoNum=function(arr){
     }
 }
 const arr=[7,8,9,11,12];
-console.log("the first missing positive number : "+firstMissingPoNum(arr));
+console.log("the first missing positive number : "+firstMissingPosNum(arr));
